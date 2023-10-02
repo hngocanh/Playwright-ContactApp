@@ -1,0 +1,14 @@
+{
+  "name": "Playwright_ContactApp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@faker-js/faker": "^8.1.0",
+    "@playwright/test": "^1.37.1",
+    "allure-playwright": "^2.6.0"
+  },
+  "scripts": {
+
+  }
+}
