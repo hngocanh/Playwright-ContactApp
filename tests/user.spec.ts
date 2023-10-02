@@ -6,6 +6,7 @@ import LoginPage from '../Pages/LoginPage';
 
 test('Register a new user', async ({ page }) => {
     
+    // Test
     const user = new User();
     const signupPage = new SignupPage();
     await signupPage.load(page);
