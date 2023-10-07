@@ -1,0 +1,5 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sat Oct 07 17:01:38 GMT 2023","Sat Oct 07 17:01:41 GMT 2023","3631","chromium","","","","","Login user",""
+"passed","Sat Oct 07 17:01:38 GMT 2023","Sat Oct 07 17:01:41 GMT 2023","3490","chromium","","","","","Add a new contact",""
+"passed","Sat Oct 07 17:01:38 GMT 2023","Sat Oct 07 17:01:41 GMT 2023","3527","chromium","","","","","Logout user",""
+"passed","Sat Oct 07 17:01:37 GMT 2023","Sat Oct 07 17:01:41 GMT 2023","3531","chromium","","","","","Register a new user",""
