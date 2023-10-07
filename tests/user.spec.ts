@@ -40,7 +40,7 @@ test('Logout user', async ({ page, request, context }) => {
     await contactListPage.load(page);
     await contactListPage.logout(page);
     const loginPage = new LoginPage();
-    const signupBtn = loginPage.getSignupBtnElement();
+    const signupBtn = loginPage.getSignupBtnElement(page);
     await expect(signupBtn).toBeVisible();
 
 });
