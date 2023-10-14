@@ -12,6 +12,7 @@ export default class Contact{
     private state: string
     private postalCode: string
     private country: string
+    private id: string
 
     constructor() {
         this.firstName = faker.person.firstName('male');
@@ -69,6 +70,14 @@ export default class Contact{
 
     getCountry() {
         return this.country;
+    }
+
+    getId() {
+        return this.id;
+    }
+
+    setId(id: string) {
+        this.id = id;
     }
 
 }

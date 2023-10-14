@@ -1,5 +1,9 @@
 import { APIRequestContext, BrowserContext, Page } from "@playwright/test";
 import Contact from "../Models/contact";
+import ContactApi from "../apis/ContactApi";
+import User from "../Models/user";
+import config from '../playwright.config'
+
 
 export default class AddContactPage{
 
@@ -70,7 +74,8 @@ export default class AddContactPage{
         
     }
 
-    async addContactUsingApi(request: APIRequestContext, contact: Contact, context: BrowserContext) {
+    async addContactUsingApi(request: APIRequestContext, contact: Contact, context: BrowserContext, user: User) {
+        await new ContactApi().addContact(request, contact, user);
         
     }
 
